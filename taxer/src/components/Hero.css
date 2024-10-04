@@ -1,0 +1,74 @@
+/* Import this at the top of your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; /* Use Roboto as the main font */
+}
+
+.hero-container {
+    display: flex;
+    align-items: stretch; /* Stretch children to equal height */
+    justify-content: space-between; /* Space between text and image */
+    padding: 40px 20px;
+    background-color: #ecf0f1; /* Light background for contrast */
+}
+
+.text-content {
+    max-width: 600px; /* Limit width for better readability */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center text vertically */
+}
+
+.title-hero {
+    font-size: 48px; /* Slightly increase title size */
+    color: #2c3e50; /* Dark blue for the title */
+    margin-bottom: 15px;
+    line-height: 1.2; /* Tighten line height for title */
+}
+
+.para {
+    font-size: 24px; /* Decrease paragraph size for better balance */
+    color: #34495e; /* Slightly lighter dark for the paragraph */
+    margin-bottom: 20px;
+    line-height: 1.5; /* Increase line height for readability */
+}
+
+.cta {
+    background-color: #3498db; /* Button color */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 12px 24px; /* Increase padding for a larger button */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Increase button text size */
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+.img-container {
+    margin-left: 20px; /* Space between text and image */
+    display: flex;
+    align-items: center; /* Center the image vertically */
+}
+
+.img-container img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Slightly rounded corners for aesthetics */
+}
+
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column; /* Stack elements on small screens */
+        align-items: center; /* Center all elements */
+    }
+
+    .img-container {
+        margin-left: 0; /* Remove margin on smaller screens */
+        margin-top: 20px; /* Add space above image */
+    }
+}

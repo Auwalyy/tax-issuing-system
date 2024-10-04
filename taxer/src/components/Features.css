@@ -1,0 +1,62 @@
+.features-container {
+    padding: 40px 20px;
+    background-color: #ecf0f1; /* Light background for contrast */
+    text-align: center;
+}
+
+.title {
+    font-size: 36px; /* Adjust as needed */
+    color: #2c3e50; /* Dark blue */
+    margin-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: center; /* Center items */
+}
+
+.feature-item {
+    background-color: #ffffff; /* White background for each feature */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    margin: 15px; /* Space between items */
+    width: 250px; /* Fixed width for uniformity */
+    text-align: left; /* Left-align text */
+    transition: transform 0.3s; /* Animation on hover */
+}
+
+.feature-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.feature-icon {
+    font-size: 40px; /* Icon size */
+    color: #3498db; /* Icon color */
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+h2 {
+    font-size: 24px; /* Feature title size */
+    color: #2c3e50; /* Dark blue */
+    margin: 10px 0; /* Space around titles */
+}
+
+p {
+    font-size: 16px; /* Paragraph size */
+    color: #34495e; /* Slightly lighter dark */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column; /* Stack features on small screens */
+        align-items: center; /* Center items */
+    }
+
+    .feature-item {
+        width: 90%; /* Full width on small screens */
+        max-width: 400px; /* Max width for larger screens */
+    }
+}

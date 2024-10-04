@@ -1,0 +1,61 @@
+.benefits-container {
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    text-align: center; /* Center-align text */
+}
+
+.title {
+    font-size: 36px; /* Title size */
+    color: #2c3e50; /* Dark blue color */
+    margin-bottom: 40px; /* Space below the title */
+}
+
+.benefits-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center items */
+}
+
+.benefit-card {
+    background-color: #ffffff; /* White background for each card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    padding: 20px;
+    margin: 15px; /* Space between cards */
+    width: 250px; /* Fixed width for uniformity */
+    transition: transform 0.3s; /* Animation on hover */
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.benefit-card h3 {
+    font-size: 22px; /* Subtitle size */
+    color: #3498db; /* Blue color for subtitles */
+    margin: 10px 0; /* Space around subtitle */
+}
+
+.benefit-card p {
+    font-size: 16px; /* Paragraph size */
+    color: #34495e; /* Dark text color */
+}
+
+/* Icon styling */
+.icon {
+    font-size: 40px; /* Icon size */
+    color: #3498db; /* Icon color */
+    margin-bottom: 10px; /* Space below the icon */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .title {
+        font-size: 28px; /* Adjust title size for smaller screens */
+    }
+
+    .benefit-card {
+        width: 90%; /* Full width on smaller screens */
+        max-width: 400px; /* Max width for larger screens */
+    }
+}
