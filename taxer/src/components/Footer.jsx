@@ -15,12 +15,14 @@ const Footer = () => {
             <li><a href="/feature">Features</a></li>
             <li><a href="/section">How It Works</a></li>
             <li><a href="/benefit">Benefits</a></li>
+            <li><a href="/pricing">Pricing</a></li> 
+            <li><a href="/support">Support</a></li> 
           </ul>
         </div>
         <div className='footer-section'>
           <h3>Contact Us</h3>
           <p>Email: <a href="mailto:support@example.com">support@example.com</a></p>
-          <p>Phone: <a href="tel:+1234567890">(123) 456-7890</a></p>
+          <p>Phone: <a href="tel:+2348026697610">(+234) 8026-697-610</a></p>
         </div>
       </div>
       <div className='footer-bottom'>

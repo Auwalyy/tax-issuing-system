@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif; /* Use Roboto font */
-    padding-top: 60px; /* Adjust this based on your header height */
+    padding-top: 10px; /* Adjust this based on your header height */
 }
 
 .header {

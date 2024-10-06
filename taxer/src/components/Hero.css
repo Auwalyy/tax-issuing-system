@@ -6,6 +6,7 @@ body {
 }
 
 .hero-container {
+
     display: flex;
     align-items: stretch; /* Stretch children to equal height */
     justify-content: space-between; /* Space between text and image */
