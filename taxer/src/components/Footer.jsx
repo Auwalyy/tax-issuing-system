@@ -21,12 +21,12 @@ const Footer = () => {
         </div>
         <div className='footer-section'>
           <h3>Contact Us</h3>
-          <p>Email: <a href="mailto:support@example.com">support@example.com</a></p>
+          <p>Email: <a href="mailto:support@example.com">auwaluizziddin2212@gmail.com</a></p>
           <p>Phone: <a href="tel:+2348026697610">(+234) 8026-697-610</a></p>
         </div>
       </div>
       <div className='footer-bottom'>
-        <p>&copy; {new Date().getFullYear()} Your Company Name. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Tax-Pay, All rights reserved.</p>
       </div>
     </footer>
   );
